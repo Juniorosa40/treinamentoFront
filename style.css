@@ -1,25 +1,27 @@
-body{
+body {
     
 }
 
-#banner{
+#banner {
     width: 100%   
 }
 
 .principal {
-    background: #CCCCCC
+    background: #CCCCCC;
+    padding: 30px;
+   
 }
     
-h1{
-    text-align: center
+.titulo-centralizado {
+    text-align: center;
 }
 
 p {
-    text-align: center    
+    text-align: center;    
 }
 
 #missao{
-    font-syze: 20px
+    font-syze: 20px;
 }
 
 em strong{
@@ -32,11 +34,7 @@ em strong{
 
 .beneficios {
     background: #FFFFFF;
-}
-
-h2 {
-    text-align: center;
-    font-style: italic;
+    padding: 20px;
 }
 
 ul {
