@@ -2,6 +2,10 @@ body {
     
 }
 
+.titulo-principal {
+    font-family: cursive;
+}
+
 #banner {
     width: 100%   
 }
@@ -14,10 +18,14 @@ body {
     
 .titulo-centralizado {
     text-align: center;
+    font-style: italic;
+    font-family: cursive;
 }
 
 p {
-    text-align: center;    
+    text-align: center; 
+    font-family: cursive;   
+   
 }
 
 #missao{
@@ -39,6 +47,7 @@ em strong{
 
 ul {
     display: inline-block;
+    font-family: cursive;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
