@@ -40,4 +40,22 @@ nav a {
     text-align: center;
     width: 27%;
     vertical-align: top;
+    margin: 0 1.5%;
+    padding: 20px 10px;
+}
+
+.produtos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    
+}
+
+.produto-preco {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
 }
