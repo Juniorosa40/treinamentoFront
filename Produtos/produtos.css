@@ -5,7 +5,7 @@ header {
 
 .caixa {
     position: relative;
-    width: 940px;
+    width: 930px;
     margin: 0 auto;
 }
 
@@ -36,7 +36,7 @@ nav a:hover {
 .produtos {
     width: 1040px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 40px 0;
 }
 
 .produtos li {
@@ -45,23 +45,35 @@ nav a:hover {
     width: 27%;
     vertical-align: top;
     margin: 0 1.5%;
-    padding: 20px 10px;
+    padding: 15px 10px;
     border: 2px solid #000000;
-    border-radius: 10px;
+    border-radius: 8px;
+}
+
+.produtos li:hover {
+    border-color: red;
+}
+
+.produtos li:active {
+    border-color: yellowgreen;    
+}
+
+.produtos li:hover h2 {
+    font-size: 35px;
 }
 
 .produtos h2 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
 }
 
 .produto-descricao {
-    font-size: 18px;
+    font-size: 14px;
     
 }
 
 .produto-preco {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: bold;
     margin-top: 10px;
 }
