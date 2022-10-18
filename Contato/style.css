@@ -126,11 +126,12 @@ form label, form legend {
     border: none;
     border-radius: 7px;
     font-size: 18px;
-    transition: 2s; background;
+    transition: 2s; all;
     cursor: pointer;
 }
 
 .enviar:hover {
     background: rgb(4, 240, 240);
+    transform: scale(1.2);
 }
 
