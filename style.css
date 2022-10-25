@@ -28,7 +28,7 @@ nav a {
     text-transform: uppercase;
     color: black;
     font-weight: bold;
-    font-size: 25px;
+    font-size: 20px;
     text-decoration: none;
 }
 
@@ -262,7 +262,7 @@ td, th   {
 }
 
 @media screen and (max-width: 480px) {
-   .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .video {
+    .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .video {
         width: auto;
     }
 
@@ -272,6 +272,8 @@ td, th   {
 
     nav {
         position: static;
+        font-size: 20px;
+        
     }
 
     .lista-beneficio, .imagem-beneficios {
