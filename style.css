@@ -260,3 +260,32 @@ td, th   {
 .video:hover {
     opacity: 0.6;
 }
+
+@media screen and (max-width: 480px) {
+   .caixa, .principal, .conteudo-beneficio, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position: static;
+    }
+
+    .lista-beneficio, .imagem-beneficios {
+        width: 100%;
+    }
+
+    .produtos {
+        width: auto;
+        
+    }
+
+    .produtos li {
+        width: 80%;
+        margin: 5px 25px;
+        display: block;
+    }
+}
