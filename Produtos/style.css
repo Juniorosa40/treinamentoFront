@@ -109,23 +109,25 @@ form input {
 
 @media screen and (max-width: 480px) { 
     .caixa {
-        width: 80%;
+        width: auto;
+        font-size: 20px;
+       
     }
     h1 {
         text-align: center;
         position: static;
                
     }
-    .nav {
+    nav {
         position: static;
-          
+                  
     }
-    .nav ul {
-        font-size: 30px;
+    nav ul {
+        font-size: 20px;
     }
     
     .produtos li {      
-       margin: 0 0;
+       margin: 7px 0;
        display: table;
 
     }
