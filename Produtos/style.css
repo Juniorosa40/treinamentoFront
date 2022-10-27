@@ -106,3 +106,28 @@ form label {
 form input {
     display: block;
 }
+
+@media screen and (max-width: 480px) { 
+    .caixa {
+        width: 80%;
+    }
+    h1 {
+        text-align: center;
+        position: static;
+               
+    }
+    .nav {
+        position: static;
+          
+    }
+    .nav ul {
+        font-size: 30px;
+    }
+    
+    .produtos li {      
+       margin: 0 0;
+       display: table;
+
+    }
+    
+}
